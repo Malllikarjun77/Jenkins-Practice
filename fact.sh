@@ -3,8 +3,7 @@
 fact=1
 num=$1
 while [ $num -gt 1 ]; do
-	fact=`expr $num /* $fact`
+	fact=`expr $fact \* $num`
 	num=`expr $num - 1`
-
 done
-echo "Factorial of $num is $fact"
+echo "Factorial of $1 is $fact"
