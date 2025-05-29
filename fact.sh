@@ -8,4 +8,3 @@ while [ $num -gt 1 ]; do
 
 done
 echo "Factorial of $num is $fact"
-date
