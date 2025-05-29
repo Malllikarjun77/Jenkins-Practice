@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Enter 2 numbers to compare"
+echo "Enter 2 numbers to compare $1 & $2"
 
 if [ $1 -gt $2 ]; then
 	echo "$1 is greater tha $2"
